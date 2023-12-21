@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img-logo-mobile {
+  width: 50px;
+}
+
+.custom-navbar {
+  height: 80px;
+}
+
+.icon {
+  padding-left: 25px;
+  background: url("https://static.thenounproject.com/png/101791-200.png")
+    no-repeat left;
+  background-size: 20px;
+}
+
+.navbar-form {
+  width: 100%;
+}
+.navbar-form-action {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.container-fluid {
+  justify-content: flex-start !important;
+  flex-wrap: nowrap !important;
+}
+.action {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
